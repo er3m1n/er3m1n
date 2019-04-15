@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTRATION</title>
+	<link rel="stylesheet" href="css/styles.css">	
+</head>
+<body>
+<div class="mainblock">
+	<div class="registration">
+	<H1>REGISTRATION</H1>
+	<p>Enter data:</p>
+		<div class="registrationformtext">
+		<text>Username</text><br>
+		<text>e-mail</text><br>
+		<text>Password</text><br>
+		<text>Password</text><br>
+		<text>Some info</text><br>
+		</div>
+		<div class="registrationform">
+		
+			<form action="cgi-bin/reg.py" method="get">
+				<input type="text" name="username" placeholder="username"/><br>
+        			<input type="text" name="email" placeholder="e-mail"/><br>
+				<input type="text" name="password" placeholder="password"/><br>
+				<input type="text" name="password2" placeholder="password"/><br>
+				<input type="text" name="info" placeholder="information"/><br>
+				<p><input type="submit" value="Continue" /></p>
+			</form>	
+		</div>
+	</div>
+	<div class="datacenter">	
+	</div>
+
+
+
+	<div class="login" >
+		<H1>LOGIN</H1>
+			<form action="cgi-bin/login.py" method="get">
+        		<input type="text" name="e-mail" placeholder="email@example.com"/><br>
+			<input type="password" name="password" placeholder="*****"/>
+			<p><input type="submit" value="LOGIN &rarr;" /></p>
+			</form>
+	</div>
+</div>
+</body>
+</html>

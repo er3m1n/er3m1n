@@ -1,0 +1,36 @@
+body{
+background-color: f2f2f2;
+font-family: verdana;
+}
+
+.mainblock{
+background-color: white;
+margin-left: 5%;
+margin-right: 5%;
+}
+.registration{
+float:left;
+}
+.login{
+float:right;
+padding-left: 0 px;
+
+}
+.datacenter{
+float: left;
+}
+.registrationformtext{
+float:left;
+margin-right: 5px;
+
+}
+.
+.registrationform{
+float:left;
+}
+div.stop{
+margin-top:20%;
+font-size: 80 px;
+text-align: center;
+background-color: f2f2f2;
+}
